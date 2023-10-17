@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="f7382802-45ee-48bd-be92-b6a80c146670" ItemType="Solution" CreatedBy="shubhkar" Created="202310170527" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="shubhkar" LastUpdate="202310170527" />
+<Solution EncryptedValidationString="JVMYmLmaE+3KIBbht70MSQ==" Guid="f7382802-45ee-48bd-be92-b6a80c146670" Name="Consumer_ITR2" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="MyWebServicesApp" Guid="99a86098-1468-4766-a348-19b38dde0872" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" />
+<ApplicationPlatform AppName="MyWebApp" Description="Web Application" Guid="f9bde1b4-f5a5-4232-b770-cfed8fd24d86" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+<ApplicationPlatform AppName="MyWindowsApp" Description="Windows Application" Guid="3ddbccea-0330-4da3-b2a3-0bbce81bd38a" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Windows" />
+</ApplicationPlatforms>
+
+<ApplitoolsConfiguration>
+<ApplitoolsConfiguration Guid="16057865-bcb9-4af8-b93d-fb11daa3c5b7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplitoolsConfiguration>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration DataPublishingPhase="DuringExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="b7d04bba-8657-4e12-a2db-adf5caf7fed1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="3bdba7a7-354d-48ed-9690-83981565c6f5" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+</HTMLReportsConfigurationSetList>
+
+<SealightsConfiguration>
+<SealightsConfiguration Guid="85df3884-a501-439c-be67-f89e7681f65a" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" SealightsTestRecommendations="No" />
+</SealightsConfiguration>
+
+<SolutionCategories>
+<SolutionCategory Category="Product" Guid="150253fc-5a57-4583-8b27-ef628aa3f504" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="c1251329-1421-4891-b896-1fce795b3d92" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Product 1" />
+<SolutionCategoryValue Guid="c31b38a4-0561-4790-bbe3-cbe41a6634cc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Product 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="TestType" Guid="0e645f6a-ecb2-4783-9238-922995c839a5" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="4fca7717-ebd6-4906-a8ba-e1c51ff26827" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Regression" />
+<SolutionCategoryValue Guid="8f19e195-1187-4e69-aa43-478631f8ad2d" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Progression" />
+<SolutionCategoryValue Guid="f5c171b9-c521-4927-a9ff-c145d116ef01" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Sanity" />
+<SolutionCategoryValue Guid="dbeaa7f8-53e2-4872-9c53-a66b0b505c53" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Acceptance" />
+<SolutionCategoryValue Guid="c19cb225-fac8-49e4-967f-f0eaff3420fe" ParentGuid="00000000-0000-0000-0000-000000000000" Value="End to End" />
+<SolutionCategoryValue Guid="1a34af52-9453-4db9-970c-ac6203245252" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Security" />
+<SolutionCategoryValue Guid="a8bcb51e-9ec7-4c1e-867a-b3ab83b4eae1" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Performance" />
+<SolutionCategoryValue Guid="2843be32-9d5c-4228-8bed-a70e6c1d8294" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Data Creation" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="Release" Guid="b69f562b-5889-4884-b7e1-f2a06b2558de" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="aca5e56e-2401-4076-9a15-04579f3c92be" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Release 1" />
+<SolutionCategoryValue Guid="09bdd8e2-868d-410b-9f8f-b5d63dbd62cd" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Release 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="Iteration" Guid="441ba598-bf22-46ab-9bb5-59e0d2f182b3" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="1b11de28-b389-4024-b54b-0ff53813e89e" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Iteration 1" />
+<SolutionCategoryValue Guid="2b4e5d35-7e51-4382-82fe-1f825c73269d" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Iteration 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="BusinessProcessTag" Guid="c130da09-cdaa-4d7f-a7bc-a2bc26ce6ae0" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="da6f0c02-24af-4aae-b5f7-cd6e182096a4" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Prepaid" />
+<SolutionCategoryValue Guid="363d07e8-8619-4034-be08-c67f8204ed8b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Postpaid" />
+<SolutionCategoryValue Guid="8d8769a3-67a3-4998-a1ff-d6f0465fa480" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer Creation" />
+<SolutionCategoryValue Guid="7ac6748c-b240-4e0b-b492-8eff6fa5281f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Subscriber Creation" />
+<SolutionCategoryValue Guid="24596ad3-e217-41f0-9975-bc0563533ccf" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Contact Creation" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="SubBusinessProcessTag" Guid="a4800921-c3e7-438f-b360-72285844160a" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="cabb09a1-8db8-4f76-b424-dccd0d7e9ea5" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer Payment (CP)" />
+<SolutionCategoryValue Guid="65ec8958-1c80-4e77-a1af-8792515c540f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer Question (CHQ)" />
+<SolutionCategoryValue Guid="ccc68541-c26a-4db2-8447-b4fb07b36d23" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Order Creation (COP)" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="UserCategory1" Guid="6313225e-9aee-428c-b39a-a5fbf6a5a65c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<SolutionCategory Category="UserCategory2" Guid="bdf7c19e-7554-4155-af99-850208ef37af" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<SolutionCategory Category="UserCategory3" Guid="b8192a66-23d6-41a6-9b11-c053c65de637" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</SolutionCategories>
+
+<VRTConfiguration>
+<VRTConfiguration DifferenceTolerance="0.0" FailActionOnCheckpointMismatch="Yes" Guid="91b0222a-1053-4c2e-9144-47552c80bf2d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</VRTConfiguration>
+</Solution></GingerRepositoryItem>

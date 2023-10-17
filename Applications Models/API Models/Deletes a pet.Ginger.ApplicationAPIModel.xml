@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="d97f82e5-7515-40ed-a25d-fed1f1b1bfaa" ItemType="ApplicationAPIModel" CreatedBy="shubhkar" Created="202310170552" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="shubhkar" LastUpdate="202310170552" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="JSon" CookieMode="Session" EndpointURL="https://petstore.swagger.io/v2/pet/&lt;{PETID}&gt;" Guid="d97f82e5-7515-40ed-a25d-fed1f1b1bfaa" Name="Deletes a pet" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="DELETE" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~99a86098-1468-4766-a348-19b38dde0872" URLDomain="https://petstore.swagger.io/v2">
+<AppModelParameters>
+<AppModelParameter Description="{petId}in url" Guid="b56b07d1-007c-4d0f-a750-5f3bb566dc95" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="&lt;{PETID}&gt;" />
+<AppModelParameter Description="api_key in headers" Guid="289a1557-e218-46b7-8072-cad7845a0956" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="&lt;api_key&gt;" />
+</AppModelParameters>
+
+<HttpHeaders>
+<APIModelKeyValue Guid="dfce9837-80b0-4ce5-9f27-46a7ee6015e3" Param="api_key" ParentGuid="00000000-0000-0000-0000-000000000000" Value="&lt;api_key&gt;" />
+</HttpHeaders>
+</ApplicationAPIModel></GingerRepositoryItem>

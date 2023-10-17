@@ -1,0 +1,24 @@
+POST https://petstore.swagger.io/v2/pet HTTP/1.0
+Accept: application/json
+Content-Type: application/json; charset=utf-8
+Content-Length: 210
+Host: petstore.swagger.io
+
+{
+  "id": 1,
+  "category": {
+    "id": 111,
+    "name": "dog"
+  },
+  "name": "dog1",
+  "photoUrls": [
+    
+  ],
+  "tags": [
+    {
+      "id": "",
+      "name": ""
+    }
+  ],
+  "status": "New"
+}

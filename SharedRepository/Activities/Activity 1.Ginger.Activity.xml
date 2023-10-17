@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="de173111-c807-4e2e-91d8-e8df786f9ac8" ItemType="Activity" CreatedBy="shubhkar" Created="202310170605" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="shubhkar" LastUpdate="202310170605" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="de173111-c807-4e2e-91d8-e8df786f9ac8" ParentGuid="de173111-c807-4e2e-91d8-e8df786f9ac8" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<Acts>
+<ActWebAPIModel Active="True" Description="Add a new pet to the store-JSON- API Model Execution" Guid="457f0e17-e35d-47d5-a108-c52f0e96cd68" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<APIModelParamsValue>
+<EnhancedActInputValue Guid="c7acdf4a-aa97-484a-83ec-df4a370eadca" Param="&lt;ID&gt;" ParamGuid="4b551f0a-adbb-40d7-8665-b1d20ab568ed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=ID}" />
+<EnhancedActInputValue Guid="4c8faebc-5895-4ae0-b079-86a03f3437b9" Param="&lt;ID1&gt;" ParamGuid="ea08ffc2-c39e-4b56-8485-893b10dacced" ParentGuid="00000000-0000-0000-0000-000000000000" Value="111" />
+<EnhancedActInputValue Guid="4fda64a8-f097-4c03-b800-7b8e7b9a587a" Param="&lt;NAME&gt;" ParamGuid="e5f7d850-ab2e-45a5-a61b-69c807e06bf0" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=name}" />
+<EnhancedActInputValue Guid="fb4f5dfc-5fd2-4486-99b1-ed879e7a37fc" Param="&lt;NAME1&gt;" ParamGuid="8a2ca4f2-c3c8-4326-9f7b-fb220a2492a9" ParentGuid="00000000-0000-0000-0000-000000000000" Value="dog1" />
+<EnhancedActInputValue Guid="86319435-eb45-4ba4-9906-adcb953ae74b" Param="&lt;STATUS&gt;" ParamGuid="6763b8a5-e1b6-4eef-9a3f-150b86fecd63" ParentGuid="00000000-0000-0000-0000-000000000000" Value="New" />
+</APIModelParamsValue>
+
+<InputValues>
+<ActInputValue Guid="10b94837-c715-453a-bd76-db634af6e2e6" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="09969997-f155-42af-81b8-07737413e4a7" />
+</InputValues>
+</ActWebAPIModel>
+<ActWebAPIModel Active="True" Description="Finds Pets by status- API Model Execution" Guid="57af7c4b-59b9-4945-8ae0-1e1c7e0669f0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<APIModelParamsValue>
+<EnhancedActInputValue Description="status in query" Guid="6bc78782-5968-434e-9868-7bb8db486696" Param="[&lt;status&gt;]" ParamGuid="1808f5e2-9c51-4931-a4e8-272347aa2804" ParentGuid="00000000-0000-0000-0000-000000000000" Value="New" />
+</APIModelParamsValue>
+
+<InputValues>
+<ActInputValue Guid="92bc8b8d-6619-4b08-82e9-d1a457435d84" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="6622ee95-f360-4264-8cb3-77c9a510c345" />
+</InputValues>
+</ActWebAPIModel>
+<ActWebAPIModel Active="True" Description="Find pet by ID- API Model Execution" Guid="1fba156a-64ff-4146-ae50-a870414f15e0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<APIModelParamsValue>
+<EnhancedActInputValue Description="{petId}in url" Guid="3292176e-55eb-4884-bfc0-4d4fbf9c97a0" Param="&lt;{PETID}&gt;" ParamGuid="3c5710ce-9cf2-4071-aaab-6c023fdcfdfd" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=ID}" />
+</APIModelParamsValue>
+
+<InputValues>
+<ActInputValue Guid="1c2f1dd6-5ea1-4303-9fdd-d5c188c07008" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="2601714d-05d2-49fd-a5ad-dd91a7bb08fe" />
+</InputValues>
+</ActWebAPIModel>
+<ActWebAPIModel Active="True" Description="Deletes a pet- API Model Execution" Guid="0a4a59e7-40d4-408a-aca4-df3828b8f4d9" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<APIModelParamsValue>
+<EnhancedActInputValue Description="{petId}in url" Guid="7b355a18-44c1-4ac6-85f1-a40e9a6105e2" Param="&lt;{PETID}&gt;" ParamGuid="b56b07d1-007c-4d0f-a750-5f3bb566dc95" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1" />
+<EnhancedActInputValue Description="api_key in headers" Guid="ffe39862-62c1-4743-af3f-3ead24658848" Param="&lt;api_key&gt;" ParamGuid="289a1557-e218-46b7-8072-cad7845a0956" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</APIModelParamsValue>
+
+<InputValues>
+<ActInputValue Guid="258272e4-0fc1-4eaa-b063-dde9bfa8e097" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="d97f82e5-7515-40ed-a25d-fed1f1b1bfaa" />
+</InputValues>
+</ActWebAPIModel>
+</Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="f9bde1b4-f5a5-4232-b770-cfed8fd24d86" Guid="6da59be0-3ba1-4ff2-8642-8644873ac4dd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="3ddbccea-0330-4da3-b2a3-0bbce81bd38a" Guid="e291c414-ccb8-41f3-81ea-7ea8762a5372" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
+
+<Variables>
+<VariableString Guid="33334d1a-4b77-4f17-b03e-7a6d0c547ae5" InitialStringValue="dog" MappedOutputType="None" Name="name" ParentGuid="de173111-c807-4e2e-91d8-e8df786f9ac8" ParentName="Flow 3\Group\Activity 1" ParentType="Activity" Publish="True" />
+<VariableNumber Guid="5840e239-e7ca-4b91-af16-06e022171625" InitialNumberValue="1" MappedOutputType="None" MaxValue="2147483647" MinValue="-2147483648" Name="ID" ParentGuid="de173111-c807-4e2e-91d8-e8df786f9ac8" ParentName="Flow 3\Group\Activity 1" ParentType="Activity" Publish="True" SetAsOutputValue="False" />
+</Variables>
+</Activity></GingerRepositoryItem>
